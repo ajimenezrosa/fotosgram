@@ -1,6 +1,6 @@
 
 # Esta aplicación es real, pensada para que se mire bien y elegante. 
- 
+ ![fotoGram](https://www.panamaamerica.com.pa/sites/default/files/imagenes/2016/04/10/041016-PA-99-1-01.jpg)
 ## Implementaremos guards pensados en que todo es cargado mediante lazyload y protección de las rutas contra servicios en nuestro backend.
 
 
@@ -29,7 +29,7 @@ Vamos a necesitar 21 registros en la base de datos para probar la paginación y 
 
 
 
-# Interfaces necesarias para le tipado de nuestros Datos.123
+# Interfaces necesarias para le tipado de nuestros Datos.
 
   A continuacion presentamos el tipado de nuestros datos.
   esta estructura esta datos por los datos de nuestro servicio que lista nuestros posts.
@@ -59,6 +59,31 @@ interface Usuario {
 }
 ~~~
 
+
+# Componente Post Posts y Componets Module.123
+
+Anexamos el contenido de nuestro tabs.ion-logo-html
+
+~~~html
+<ion-tabs>
+
+  <ion-tab-bar slot="bottom">
+    <ion-tab-button tab="tab1">
+      <ion-icon name="home"></ion-icon>
+    </ion-tab-button>
+
+    <ion-tab-button tab="tab2">
+      <ion-icon name="add-circle-outline"></ion-icon>
+    </ion-tab-button>
+
+    <ion-tab-button tab="tab3">
+      <ion-icon name="person"></ion-icon>
+    </ion-tab-button>
+  </ion-tab-bar>
+
+</ion-tabs>
+
+~~~
 
 
 

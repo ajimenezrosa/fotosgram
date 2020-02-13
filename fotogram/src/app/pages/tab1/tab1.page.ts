@@ -8,13 +8,16 @@ import { PostsService } from '../../services/posts.service';
 })
 export class Tab1Page implements OnInit {
 
+  posts: Post[] = [];
+
   constructor( private postsServices: PostsService) {}
 
   ngOnInit() {
 
     this.postsServices.getPosts()
           .subscribe( resp => {
-             console.log(resp. );
+             console.log(resp );
+             this.posts.push(...resp.posts);
           });
 
   }
